@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html style="height: 100%" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google images</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body id="body">
+    <div id="header">
+      <a id="link" href="index.html">Google Search</a>
+    </div>
+    <div id="img">
+      <div style="margin-top: auto; max-height: 92px; position: relative">
+        <img height="92" width="272" src="google.png" alt="" />
+        <span id="images">Images</span>
+      </div>
+    </div>
+    <div style="text-align: -webkit-center; padding: 20px">
+      <form action="https://google.com/search">
+        <div id="search">
+          <div id="search2">
+            <div style="width: 5%">
+              <img src="icons.svg" alt="" />
+            </div>
+            <div style="width: 95%">
+              <input id="input" type="text" name="q" />
+              <input type="hidden" name="tbm" value="isch" />
+            </div>
+            <div>
+              <button type="submit" id="searchButton">
+                <img src="iconSearch.svg" alt="" />
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!--<input type="submit" value="Google Search" /> -->
+      </form>
+    </div>
+  </body>
+</html>

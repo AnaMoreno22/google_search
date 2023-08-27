@@ -1,0 +1,130 @@
+#body {
+  height: 100%;
+  font-family: arial, sans-serif;
+}
+#search {
+  text-align: center;
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+  max-width: 584px;
+  height: 44px;
+  display: flex;
+}
+#search2 {
+  display: flex;
+  flex: 1;
+  padding: 5px 8px 0 14px;
+}
+#input {
+  width: 90%;
+  text-align: center;
+  border: none;
+  display: flex;
+  height: 34px;
+  font-size: 16px;
+  flex: 100%;
+  margin: 0;
+  background-color: transparent;
+  color: #202124;
+  writing-mode: horizontal-tb !important;
+  text-align: start;
+}
+#input:focus {
+  border-color: inherit;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  outline: none;
+}
+#img {
+  display: flex;
+  flex-direction: column;
+  min-height: 150px;
+  max-height: 290px;
+  height: calc(100% - 350px);
+  align-items: center;
+}
+
+#button {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+#header {
+  align-items: center;
+  padding: 6px;
+  display: flex;
+  justify-content: end;
+}
+
+#link {
+  text-decoration: none;
+  color: black;
+}
+
+#images {
+  color: #4285f4;
+  font: 16px/16px roboto-regular, arial, sans-serif;
+  position: absolute;
+  left: 215px;
+  bottom: 0;
+  white-space: nowrap;
+}
+
+#searchButton {
+  height: 44px;
+  width: 44px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  flex: 0 0 auto;
+  padding: 0;
+}
+
+#bodyAdvanced {
+  margin: 30px;
+}
+
+#advancedInput {
+  border: 1px solid #d9d9d9;
+  height: 25px;
+  width: 580px;
+  font-size: 13px;
+}
+
+#advancedSpace {
+  margin-top: 20px;
+  clear: both;
+  display: flex;
+}
+
+#advancedLabel {
+  font-size: 14px;
+}
+
+#advancedButton {
+  background-color: #4d90fe;
+  color: white;
+  border: 1px solid #3079ed;
+  min-width: 120px;
+  height: 30px;
+  border-radius: 2px;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+#advancedButtonField {
+  width: 59%;
+  text-align: right;
+}
